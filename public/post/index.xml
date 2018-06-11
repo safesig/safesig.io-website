@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on safeSig &lt;.io&gt;</title>
+    <link>https://safesig.github.io/post/</link>
+    <description>Recent content in Posts on safeSig &lt;.io&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://safesig.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Traditional HSM solutions have no way to identify if the message they are signing will validate a block or empty the wallet.</title>
+      <link>https://safesig.github.io/post/first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://safesig.github.io/post/first/</guid>
+      <description> The safeSig &amp;lt;.io&amp;gt; KeyGuardAPI provides a secure HSM proxy that uses DMI Technology with two-pass validation to ensure that access to your cryptocurrency keys remains solely in your control.
+HSM &amp;lt;--&amp;gt; safeSig &amp;lt;.io&amp;gt; KeyGuardAPI &amp;lt;--&amp;gt; Blockchain Application &amp;lt;--&amp;gt; Users  </description>
+    </item>
+    
+    <item>
+      <title>Reduce your attack surface with safeSig &lt;.io&gt; KeyGuardAPI.</title>
+      <link>https://safesig.github.io/post/second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://safesig.github.io/post/second/</guid>
+      <description>Reduce your attack surface by isolating your blockchain applications from direct HSM access to protect against key exposure and fund theft even if your blockchain application is fully rooted by attackers.
+ safeSig &amp;lt;.io&amp;gt; KeyGuardAPI reduces the attack surface for many types of attacks:
+ Chosen-PlainText Attacks
+ Side-Channel Attacks*
+ Key Dumps
+ Malicious Transaction Signing
+Restrict and sanitize cryptocurrency signature and other key operation requests to your private keys with safeSig &amp;lt;.</description>
+    </item>
+    
+    <item>
+      <title>Manage user and application access to your private keys with an easy-to-use Admin Panel.</title>
+      <link>https://safesig.github.io/post/third/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://safesig.github.io/post/third/</guid>
+      <description>Take full control of restricting and granting user and application access rights with intuitive permission settings.
+ Add conditions for requiring multi-party 2FA for large amounts
+ View and audit logs for all signature requests and actions
+ Manage levels of access for employees
+ Keep track of signature operations across many DLTs
+ Instant &amp;ldquo;key-kill-switch&amp;rdquo; to instantly take your key offline to prevent signing new transactions*</description>
+    </item>
+    
+    <item>
+      <title>Bring your own HSM solution or use our BareMetalHSM.</title>
+      <link>https://safesig.github.io/post/fourth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://safesig.github.io/post/fourth/</guid>
+      <description>&amp;nbsp;&amp;nbsp; safeSig &amp;lt;.io&amp;gt; KeyGuardAPI integrates with our BareMetalHSM, Azure Key Vault, AWS CloudHSM or your custom solution.
+ safeSig &amp;lt;.io&amp;gt; BareMetalHSM service provides dedicated FIPS 140-2 Level 3 Validated hardware.
+ Hosted in a SAS70 certified Tier 4 Data Center with 24-hour security and biometric restricted access.
+ safeSig &amp;lt;.io&amp;gt; BareMetalHSM is the only cloud HSM that quickly and easily supports BIP32 key management.</description>
+    </item>
+    
+    <item>
+      <title>safeSig &lt;.io&gt; supports secure key operations for multiple DLTs in one API.</title>
+      <link>https://safesig.github.io/post/fifth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://safesig.github.io/post/fifth/</guid>
+      <description>Secure BIP32 HSM key management support available.*
+safeSig &amp;lt;.io&amp;gt; offers custom solutions for new signature schemes and operations.
+*Only available with safeSig &amp;lt;.io&amp;gt; BareMetalHSM</description>
+    </item>
+    
+    <item>
+      <title>How does KeyGuardAPI work?</title>
+      <link>https://safesig.github.io/post/sixth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://safesig.github.io/post/sixth/</guid>
+      <description>For signature operations in DLT nodes/applications a private key is normally used locally to sign a message.
+ HSMs transfer the private key handling from the application server to a dedicated secure hardware device.
+ For an application to use an HSM it calls an API with credentials and a message payload for the key on the HSM to sign.
+ If an application is compromised the private key can be forced to sign messages chosen by the attacker.</description>
+    </item>
+    
+    <item>
+      <title>Who is using KeyGuardAPI and BareMetalHSM?</title>
+      <link>https://safesig.github.io/post/seventh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://safesig.github.io/post/seventh/</guid>
+      <description>DLT Block Producers/Validators
+ Cryptocurrency Exchanges and Trading Platforms
+ Cryptocurrency Mining and Staking Pools
+ Layer 2 Cryptocurrency Payment Nodes and Relays
+ Compliant Cryptocurrency Businesses</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://safesig.github.io/post/eighth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://safesig.github.io/post/eighth/</guid>
+      <description>Jun 10, 2018  Using HSMs for blockchain applications
+June 9, 2018  How to secure keys stored in HSMs from unauthorized requests
+June 8, 2018  Hardware security and cryptocurrency keys</description>
+    </item>
+    
+    <item>
+      <title>About safeSig &lt;.io&gt;</title>
+      <link>https://safesig.github.io/post/ninth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://safesig.github.io/post/ninth/</guid>
+      <description>safeSig &amp;lt;.io&amp;gt; was created with  in San Francisco by cryptographers and blockchain security professionals.</description>
+    </item>
+    
+  </channel>
+</rss>

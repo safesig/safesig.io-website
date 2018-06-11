@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <base href="https://safesig.github.io">
+    <title>How does KeyGuardAPI work?</title>
+
+    
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/css/landing-page.css" rel="stylesheet">
+
+    
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/@icon/cryptocurrency-icons/cryptocurrency-icons.css">
+
+    <style>
+    .navbar {
+    border-color: #e7e7e7;
+}
+
+.content-section-a,
+footer,
+.navbar {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.navbar a:link,
+.navbar-default .navbar-nav>li>a {
+  color: #777;
+}
+
+.navbar a:hover,
+.navbar-default .navbar-nav>li>a:hover {
+  color: rgb(51, 51, 51);
+}
+
+.content-section-b {
+  background-color: white;
+  color: #333;
+}
+
+body {
+  color: rgb(51, 51, 51);
+}
+
+.header-container h1,
+.header-container h2,
+.header-container h3,
+.header-container h4 {
+  color: rgb(51, 51, 51);
+}
+
+  </style>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="page-scroll navbar-brand" href="#intro"><img src="../img/lock.png" height=20 width=20></i> safeSig &lt;.io&gt;</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href=http://github.com/safesig/docs target="_blank"><i class="fas fa-book"></i></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href=http://github.com/safesig target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://keybase.io/team/safesig" target="_blank"><i class="fab fa-keybase"></i></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="mailto:hello@safesig.io"><i class="far fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    
+</nav>
+
+
+<section id="services">
+   <div class="content-section-a">
+
+      <div class="container">
+
+        <div class="row">
+          <div>
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">How does KeyGuardAPI work?</h2>
+            <p><i class="fas fa-key"></i> For signature operations in DLT nodes/applications a private key is normally used locally to sign a message.</p>
+
+<p><i class="fas fa-hdd"></i> HSMs transfer the private key handling from the application server to a dedicated secure hardware device.</p>
+
+<p><i class="far fa-comments"></i> For an application to use an HSM it calls an API with credentials and a message payload for the key on the HSM to sign.</p>
+
+<p><i class="fas fa-exclamation-triangle"></i> If an application is compromised the private key can be forced to sign messages chosen by the attacker.</p>
+
+<p><i class="fas fa-user-secret"></i> The attacker can perform a time consuming chosen-plaintext attack to reveal the private keys.</p>
+
+<p><i class="fas fa-user-secret"></i> But it is much easier to send the HSM a payload to sign that gives the attacker all of the funds secured by your keys&hellip;</p>
+
+<p><i class="fas fa-shield-alt"></i> <em>KeyGuardAPI sits in between the application and the HSM and firewalls each signature request to the HSM.</em></p>
+
+<p><i class="fas fa-ban"></i> If the request does not fit the configured validation requirements it is rejected and does not reach your HSM.</p>
+
+<p><i class="fas fa-medkit"></i> Once messages are signed by the HSM they are sanitized again to ensure safe data is returned to the application.</p>
+
+<p><i class="fas fa-user-ninja"></i> This prevents even the most determined hackers from gaining unintended access to your private keys.</p>
+
+<p><i class="fas fa-exclamation-circle"></i> <em><strong>safeSig &lt;.io&gt; never has unencrypted access to your private keys</strong></em></p>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p class="copyright text-muted small">Copyright &copy; <img src="../img/lock.png" height=12 width=12></i> How does KeyGuardAPI work? All Rights Reserved</p>
+            </div>
+            <div class="col-md-4">
+		Made possible with support from <a href="http://secureware.io" target="_blank">secureware.io</a>.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/js/jquery-1.11.0.js"></script>
+
+
+<script src="/js/jquery.easing.min.js"></script>
+
+
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="js/landing-page.js"></script>
+
+
+
+</body>
+</html>
+
